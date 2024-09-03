@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio Romi Barros</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div>👩🏻‍💻💜</div>
+      <nav>
+        <ul>
+          <li><a href=".index.html">🏠</a></li>
+          <li><a href="./about.html">Sobre mi</a></li>
+          <li><a href="./experience.html">Experiencia</a></li>
+          <li><a href="./works.html">Trabajos</a></li>
+          <li><a href="./contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="principal">
+      <div class="image">
+        <img src="./assets/romi.png" alt="Romi Barros" />
+      </div>
+      <div class="greeting">
+        <h5>Hola, mi nombre es</h5>
+        <h1>Romi Barros</h1>
+        <h3>Senior Software Engineer</h3>
+        <p>
+          Bienvenidos a mi portfolio, aca podran ver un poco de mi historia y
+          mucho de mi experiencia profesional que sigo construyendo dia a dia
+        </p>
+        <div class="button_works">
+          <button onclick="goToWorks()">Ver mis trabajos</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>©️ Todos los derechos reservados.</p>
+    </footer>
+    <script>
+      function goToWorks() {
+        window.location.href = "./works.html";
+      }
+    </script>
+  </body>
+</html>
