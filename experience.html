@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio Romi Barros</title>
+    <link rel="icon" href="./favicon.png" type="image/png">
     <link rel="stylesheet" href="styles.css" />
 </head>
   <body>
     <header>
       <div>👩🏻‍💻💜</div>
-      <nav>
-        <ul>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" hidden />
+        <label for="menu-toggle" class="menu-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+      <nav class="nav-list">
+        <ul class="nav-ul">
           <li><a href="./index.html">🏠</a></li>
           <li><a href="./about.html">Sobre mi</a></li>
           <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="./experience.html">Experiencia</a></li>
+          <li><a class="active" href="./experience.html">Experiencia</a></li>
           <li><a href="./services.html">Servicios</a></li>
           <li><a href="./contact.html">Contacto</a></li>
         </ul>
@@ -26,7 +33,9 @@
        
         <div class="boxes_experience">
             <h2>Experiencia</h2>
-            <button>Bajar PDF</button>
+            <div class="button_works button_inline">
+                <button>Bajar PDF</button>
+            </div>
             <div class="box">
                 <ul>
                     <li><span>Puesto:</span> Software Technical Leader</li>
@@ -76,11 +85,11 @@
             <h2>Skills</h2>
             <div>
                 <p class="title">Tecnologias</p>
-                <p><span>React</span> <span>Angular</span> <span>Javascript</span> <span>Typescript</span> <span>HTML</span> <span>SCSSS/CSS</span> <span>Node</span> <span>Ionic</span> <span>JSON</span></p>
+                <p><span class="tags">React</span> <span class="tags">Angular</span> <span class="tags">Javascript</span> <span class="tags">Typescript</span> <span class="tags">HTML</span> <span class="tags">SCSSS/CSS</span> <span class="tags">Node</span> <span class="tags">Ionic</span> <span class="tags">JSON</span></p>
                 <p class="title">Habilidades blandas</p>
-                <p><span>Liderazgo</span> <span>Trabajo en equipo</span> <span>Capacitaciones</span> <span>Reuniones 1:1</span><span>Escucha activa</span></p>
+                <p><span class="tags">Liderazgo</span> <span class="tags">Trabajo en equipo</span> <span class="tags">Capacitaciones</span> <span class="tags">Reuniones 1:1</span><span class="tags">Escucha activa</span></p>
                 <p class="title">Gestión de proyectos</p>
-                <p><span>Dirección de equipos</span> <span>Jira</span> <span>Metodologías Ágiles</span> <span>Scrum</span> <span>Planificación de spints</span></p>
+                <p><span class="tags">Dirección de equipos</span> <span class="tags">Jira</span> <span class="tags">Metodologías Ágiles</span> <span class="tags">Scrum</span> <span class="tags">Planificación de spints</span></p>
             </div>
         </div>
 

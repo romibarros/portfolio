@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio Romi Barros</title>
+    <link rel="icon" href="./favicon.png" type="image/png">
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <div>👩🏻‍💻💜</div>
-      <nav>
-        <ul>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" hidden />
+        <label for="menu-toggle" class="menu-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+      <nav class="nav-list">
+        <ul class="nav-ul">
           <li><a href="./index.html">🏠</a></li>
           <li><a href="./about.html">Sobre mi</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a class="active" href="./portfolio.html">Portfolio</a></li>
           <li><a href="./experience.html">Experiencia</a></li>
           <li><a href="./services.html">Servicios</a></li>
           <li><a href="./contact.html">Contacto</a></li>
@@ -32,7 +39,7 @@
           <div class="info_box">           
             <p>Es una página personal de un ingeniero de sonido para mostrar sus trabajos, una suerte de portfolio.
                Respecto a su realizacion es en HTML5 y CSS3 full responsive, el backend es PHP con base de datos y ABM para actualización de contenido. Estuve a cargo de todo el proceso, desde su diseño hasta su programación, subida a un host y mantención de la misma. Se puede visitar en el siguiente <a href="https://www.pablobarros.com.ar" target="_blank">LINK</a></p>
-            <p><span>HTML5</span> <span>CSS3</span> <span>PHP</span> <span>MySQL</span></p>
+            <p><span class="tags">HTML5</span> <span class="tags">CSS3</span> <span class="tags">PHP</span> <span class="tags">MySQL</span></p>
           </div>
         </div>
       </div>
@@ -45,7 +52,7 @@
           </div>
           <div class="info_box">
             <p>Se trataba de un emprendimiento de armado de mesas dulces y tortas para eventos, la pagina era tanto para mostrar sus trabajos como para interactuar entre usuarios, se podian comentar las fotos que estaban separados por eventos, era una suerte de blog. Tenia una sección para poder cotizar los servicios y contactar a la persona del emprendimiento. Empezo como un trabajo para la facultad pero continuo ya que a la persona le interesó tenerla activa, estuve a cargo del 100% del proceso y de la subida al hosting. Hoy en dia ya no esta disponible</p>
-            <p><span>Bootstrap</span> <span>HTML5</span> <span>CSS3</span> <span>PHP</span> <span>MySQL</span></p>
+            <p><span class="tags">Bootstrap</span> <span class="tags">HTML5</span> <span class="tags">CSS3</span> <span class="tags">PHP</span> <span class="tags">MySQL</span></p>
           </div>
         </div>
       </div>
@@ -57,7 +64,7 @@
           </div>
           <div class="info_box">
             <p>Inició como un proyecto para la facultad, se trataba de una aplicacion para el celular para supervisores/responsables de ventas desde donde podian cargar la productividad de los equipos y sus ojetivos, hacerle un seguimiento a cada integrante del equipo, tener proyecciones sobre los objetivos mensuales a cumplir. Estuve a cargo de todo el proyecto con seguimiento de los profesores ya que se veian varias areas juntas, como diseño y usabilidad aparte del codigo.</p>
-            <p><span>AngularJS</span> <span>IONIC</span> <span>PHP</span> <span>MySQL</span></p>
+            <p><span class="tags">AngularJS</span> <span class="tags">IONIC</span> <span class="tags">PHP</span> <span class="tags">MySQL</span></p>
           </div>
         </div>
       </div>
