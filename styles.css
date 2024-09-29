@@ -43,6 +43,9 @@ body {
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s; 
 }
+.button_works button a{
+  text-decoration: none;
+}
 
 .button_works button:hover {
   box-shadow: 4px 4px 0 0 var(--color-primary);
